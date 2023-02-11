@@ -51,7 +51,11 @@ public class TorchControl : MonoBehaviour
                 if (playedForTime >= animationLength/3) {
                     stickOffset = new Vector3(0, 0.2f, 0);
                     if (playedForTime <= animationLength*2.5/3) {
-                        stickOffset = new Vector3(0.2f, 0.2f, 0);
+                        if (lookingRight) {
+                            stickOffset = new Vector3(0.2f, 0.2f, 0);
+                        } else {
+                            stickOffset = new Vector3(-0.2f, 0.2f, 0);
+                        }
                     }
                 } else {
                     stickOffset = Vector3.zero;
