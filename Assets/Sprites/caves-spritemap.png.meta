@@ -641,6 +641,174 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: caves-spritemap_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69220e7615d181088fa281b8ad22184
+      internalID: 1520100682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves-spritemap_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8424372a1c62182fb8784c833b7ee55
+      internalID: -896275007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves-spritemap_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d3873d499e1b86dbfe5f7a35f24e18
+      internalID: 96792119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves-spritemap_28
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 8
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e87463965ede7473a958fc78df76ccd
+      internalID: 676276346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves-spritemap_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e785dc65486bdeecb10050511c878fb
+      internalID: 1900043011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves-spritemap_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9becdaf7948110a449baa8a90db5ee91
+      internalID: -1435714344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves-spritemap_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25687280f4416aa4480cfb5883b34eee
+      internalID: 1203150169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: caves-spritemap_32
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a525cadbd65bb0a8a91b7bd404c9841
+      internalID: -767179985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -652,15 +820,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      caves-spritemap_26: -896275007
       caves-spritemap_11: 539094990
+      caves-spritemap_32: -767179985
+      caves-spritemap_29: 1900043011
       caves-spritemap_7: -381580707
       caves-spritemap_23: -1899113966
       caves-spritemap_24: -2113742355
+      caves-spritemap_25: 1520100682
       caves-spritemap_17: -1803342233
       caves-spritemap_22: -2020098335
       caves-spritemap_14: 526566100
       caves-spritemap_2: 1764950611
       caves-spritemap_12: -2002667278
+      caves-spritemap_28: 676276346
       caves-spritemap_3: -858102513
       caves-spritemap_9: 446284135
       caves-spritemap_5: -1634184493
@@ -672,11 +845,14 @@ TextureImporter:
       caves-spritemap_10: -262044202
       caves-spritemap_13: 837908468
       caves-spritemap_18: 1595345451
+      caves-spritemap_31: 1203150169
       caves-spritemap_20: 1021462519
       caves-spritemap_19: -2055787183
       caves-spritemap_1: -2044516817
+      caves-spritemap_30: -1435714344
       caves-spritemap_6: -267877528
       caves-spritemap_0: -1440315077
+      caves-spritemap_27: 96792119
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
