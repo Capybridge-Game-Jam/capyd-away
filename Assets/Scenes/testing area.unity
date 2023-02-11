@@ -301,7 +301,7 @@ GameObject:
   - component: {fileID: 625940276}
   - component: {fileID: 625940278}
   - component: {fileID: 625940277}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Caves-Scenery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -566,7 +566,9 @@ GameObject:
   - component: {fileID: 1695746249}
   - component: {fileID: 1695746248}
   - component: {fileID: 1695746247}
-  m_Layer: 0
+  - component: {fileID: 1695746251}
+  - component: {fileID: 1695746250}
+  m_Layer: 11
   m_Name: Caves-Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -597,7 +599,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1695746245}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 890a5747596a485bba200a61e0c2a7dc, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -71139,6 +71141,49 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!66 &1695746250
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695746245}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 890a5747596a485bba200a61e0c2a7dc, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 1
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths: []
+  m_VertexDistance: 0.5
+  m_OffsetDistance: 0.00005
+--- !u!50 &1695746251
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695746245}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1731042333
 GameObject:
   m_ObjectHideFlags: 0
