@@ -11,6 +11,7 @@ public class TorchControl : MonoBehaviour
     public GameObject stickBack;
     public GameObject flame;
     public Vector3 stickOffset = Vector3.zero;
+    bool lookingRight = true;
 
 
     // Start is called before the first frame update
@@ -22,7 +23,7 @@ public class TorchControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool lookingRight = capybara.GetComponent<SpriteRenderer>().flipX;
+        lookingRight = capybara.GetComponent<SpriteRenderer>().flipX;
         for (int i = 0; i < this.transform.childCount; i++) {
             this.transform.GetChild(i).GetComponent<SpriteRenderer>().flipX = !lookingRight;
         }
