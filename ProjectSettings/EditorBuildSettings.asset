@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Caves.unity
+    guid: 84ca94943e9349c49b81753ef1a79f73
+  - enabled: 1
+    path: Assets/Scenes/Sewers.unity
+    guid: 24f74e3e1fd1e754d83f5b23e9befccc
+  - enabled: 1
+    path: Assets/Scenes/Cyberpunk.unity
+    guid: 55d965160c70e766fae8a22579a82604
   m_configObjects: {}

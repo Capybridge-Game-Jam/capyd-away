@@ -8,6 +8,10 @@ TagManager:
   - torchColourChanger
   - pumpTrigger
   - upwardsPumpForce
+  - Door1
+  - Door2
+  - Continue
+  - Exit
   layers:
   - Default
   - TransparentFX
