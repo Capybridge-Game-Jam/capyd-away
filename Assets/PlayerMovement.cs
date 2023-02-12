@@ -61,7 +61,9 @@ public class PlayerMovement : MonoBehaviour
 
         else if (other.gameObject.tag == "upwardsPumpForce") {
             Debug.Log("Pumping");
-            this.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 1000));
+            Debug.Log(other.gameObject.transform.rotation);
+            Vector3 otherDirection = other.gameObject.transform.position - other.gameObject.transform.parent.transform.position;
+            this.gameObject.GetComponent<Rigidbody2D>().AddForce(otherDirection.normalized * 3000f);
         }
         
     }
