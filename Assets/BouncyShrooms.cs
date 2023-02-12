@@ -31,7 +31,6 @@ public class BouncyShrooms : MonoBehaviour
             Debug.Log("Collision");
             if (playerRigidbody != null)
             {
-                //var x = playerRigidbody.velocity.x;
                 playerRigidbody.velocity = new Vector2(0, 0);
                 playerRigidbody.AddForce(transform.up * bounceForce, ForceMode2D.Impulse);
             
