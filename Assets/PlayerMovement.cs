@@ -9,7 +9,9 @@ public class PlayerMovement : MonoBehaviour
 
     public CharacterController2D controller;
     public Animator animator;
-
+    public GameObject flame;
+    public GameObject torchLight;
+    public GameObject torchAmbientLight;
     public float runSpeed = 5f;
     
     float horizontalMove = 0f;
@@ -41,5 +43,21 @@ public class PlayerMovement : MonoBehaviour
         // Move our character
         controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
         jump = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Triggered");
+        if (other.gameObject.tag == "torchColourChanger")
+        {
+            // Change the colour of the torch
+            Color newColor = other.gameObject.GetComponent<SpriteRenderer>().color;
+            flame.gameObject.GetComponent<SpriteRenderer>().color = newColor;
+            torchLight.gameObject.GetComponent<UnityEngine.Rendering.Universal.Light2D>().color = newColor;
+            torchAmbientLight.gameObject.GetComponent<UnityEngine.Rendering.Universal.Light2D>().color = newColor;
+
+            ParticleSystem.MainModule settings = flame.gameObject.GetComponent<ParticleSystem>().main;
+            settings.startColor = new ParticleSystem.MinMaxGradient(newColor);
+        }
     }
 }

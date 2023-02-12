@@ -5,8 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - shadow-cast
-  - Door1
-  - Door2
+  - torchColourChanger
   layers:
   - Default
   - TransparentFX
