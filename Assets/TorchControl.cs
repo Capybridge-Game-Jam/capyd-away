@@ -28,12 +28,12 @@ public class TorchControl : MonoBehaviour
             this.transform.GetChild(i).GetComponent<SpriteRenderer>().flipX = !lookingRight;
         }
         if (lookingRight) {
-            stickFront.transform.localPosition = new Vector3(1.625f, -0.13f, 0) + stickOffset;
-            stickBack.transform.localPosition = new Vector3(2f, 0.12f, 0) + stickOffset;
+            stickFront.transform.localPosition = new Vector3(1.625f, -0.13f, -1) + stickOffset;
+            stickBack.transform.localPosition = new Vector3(2f, 0.12f, 1) + stickOffset;
             flame.transform.localPosition = new Vector3(2.25f, 1.37f, 0) + stickOffset;
         } else {
-            stickFront.transform.localPosition = new Vector3(-1.625f, -0.13f, 0) + stickOffset;
-            stickBack.transform.localPosition = new Vector3(-2f, 0.12f, 0) + stickOffset;
+            stickFront.transform.localPosition = new Vector3(-1.625f, -0.13f, -1) + stickOffset;
+            stickBack.transform.localPosition = new Vector3(-2f, 0.12f, 1) + stickOffset;
             flame.transform.localPosition = new Vector3(-2.25f, 1.37f, 0) + stickOffset;
         }
     }
@@ -44,8 +44,8 @@ public class TorchControl : MonoBehaviour
         float animationLength = capybaraAnimatorStateInfo.length;
         float playedForTime = capybaraAnimatorStateInfo.normalizedTime % 1;
         int shortNameHash = capybaraAnimatorStateInfo.shortNameHash;
-        Debug.Log(shortNameHash);
-        Debug.Log(playedForTime);
+        // Debug.Log(shortNameHash);
+        // Debug.Log(playedForTime);
 
         switch (shortNameHash) {
             case -1680735116: // still
