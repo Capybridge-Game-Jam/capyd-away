@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 141104130}
   - component: {fileID: 141104129}
   - component: {fileID: 141104133}
-  - component: {fileID: 141104132}
+  - component: {fileID: 141104134}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -178,7 +178,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.0467725
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -202,32 +202,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141104128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -1.95, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &141104132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141104128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47b076153bc8a75c48e8042adc762422, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image1: {fileID: 0}
-  image2: {fileID: 0}
-  image3: {fileID: 0}
-  image4: {fileID: 0}
-  image5: {fileID: 0}
-  imageObject: {fileID: 0}
-  fade: {fileID: 0}
 --- !u!114 &141104133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,6 +242,22 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &141104134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141104128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3430072a9091e9116abaf04b58388112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image1: {fileID: 21300000, guid: 571c891ad4bfa5d7e9001a585c7d1c89, type: 3}
+  image2: {fileID: 21300000, guid: 1a47407fb38ef532f8f8d7415121de57, type: 3}
+  imageObject: {fileID: 336228501}
+  fade: {fileID: 341516653}
 --- !u!1 &336228501
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +316,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3ec55b5d94b58178ea6d7da9f47ed954, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 571c891ad4bfa5d7e9001a585c7d1c89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
