@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/INTRO.unity
+    guid: 898c2a65665e0966d93c784974e6c9b6
   - enabled: 1
     path: Assets/Scenes/Caves.unity
     guid: 84ca94943e9349c49b81753ef1a79f73
@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cyberpunk.unity
     guid: 55d965160c70e766fae8a22579a82604
+  - enabled: 1
+    path: Assets/Scenes/END.unity
+    guid: f1eaeffaa1a4ccb0386e30cf674e210f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

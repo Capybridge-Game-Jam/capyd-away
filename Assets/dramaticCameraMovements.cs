@@ -52,6 +52,7 @@ public class dramaticCameraMovements : MonoBehaviour
         StartCoroutine(fadeUnfadeSetNewImage(image5));
         yield return new WaitForSeconds(1);
         // CHANGE SCENE HERE
+        SceneManager.LoadScene (sceneName: "Caves");
         
     }
     void Update() 
