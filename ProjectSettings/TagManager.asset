@@ -6,6 +6,8 @@ TagManager:
   tags:
   - shadow-cast
   - torchColourChanger
+  - pumpTrigger
+  - upwardsPumpForce
   layers:
   - Default
   - TransparentFX

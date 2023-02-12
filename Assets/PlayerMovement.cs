@@ -48,8 +48,7 @@ public class PlayerMovement : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Triggered");
-        if (other.gameObject.tag == "torchColourChanger")
-        {
+        if (other.gameObject.tag == "torchColourChanger") {
             // Change the colour of the torch
             Color newColor = other.gameObject.GetComponent<SpriteRenderer>().color;
             flame.gameObject.GetComponent<SpriteRenderer>().color = newColor;
@@ -59,5 +58,11 @@ public class PlayerMovement : MonoBehaviour
             ParticleSystem.MainModule settings = flame.gameObject.GetComponent<ParticleSystem>().main;
             settings.startColor = new ParticleSystem.MinMaxGradient(newColor);
         }
+
+        else if (other.gameObject.tag == "upwardsPumpForce") {
+            Debug.Log("Pumping");
+            this.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 1000));
+        }
+        
     }
 }
