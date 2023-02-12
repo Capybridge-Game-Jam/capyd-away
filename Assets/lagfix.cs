@@ -4,17 +4,13 @@ using UnityEngine;
 
 public class lagfix : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    static bool PointIsVisibleToCamera(Vector2 point)
     {
-        
+        if (Camera.main.WorldToViewportPoint(point).x < -0.2 || Camera.main.WorldToViewportPoint(point).x > 1.2 || Camera.main.WorldToViewportPoint(point).y > 1.2 || Camera.main.WorldToViewportPoint(point).y < -0.2)
+            return false;
+        return true;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void OnBecameVisible()
     {
 	     enabled = true;
