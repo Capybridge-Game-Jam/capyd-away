@@ -12,6 +12,7 @@ TagManager:
   - Door2
   - Continue
   - Exit
+  - water
   layers:
   - Default
   - TransparentFX
