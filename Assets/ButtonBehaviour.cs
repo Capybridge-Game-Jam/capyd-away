@@ -29,7 +29,7 @@ public class ButtonBehaviour : MonoBehaviour
         }
     }
 
-    void ContinueGame()
+    public void ContinueGame()
     {
         Debug.Log("Continue");
         isMenu = !isMenu;
@@ -38,7 +38,7 @@ public class ButtonBehaviour : MonoBehaviour
         MenuCanvas.SetActive(isMenu);
     }
 
-    void QuitGame()
+    public void QuitGame()
     {
         Debug.Log("Quit");
         Application.Quit();
