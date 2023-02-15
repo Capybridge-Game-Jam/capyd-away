@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class DramaticCamera2 : MonoBehaviour {
@@ -23,10 +24,11 @@ public class DramaticCamera2 : MonoBehaviour {
         yield return new WaitForSeconds(5);
         yield return StartCoroutine(fadeUnfadeSetNewImage(image2));
 
-        yield return new WaitForSeconds(14);
+        yield return new WaitForSeconds(10);
         StartCoroutine(fadeUnfadeSetNewImage(image2));
         yield return new WaitForSeconds(1);
         // CLOSE THE GAME PLEASE
+        SceneManager.LoadScene (sceneName: "Menu");
         
     }
     void Update() 

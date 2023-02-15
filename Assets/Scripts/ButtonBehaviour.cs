@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -31,7 +32,6 @@ public class ButtonBehaviour : MonoBehaviour
 
     public void ContinueGame()
     {
-        Debug.Log("Continue");
         isMenu = !isMenu;
         timescale = (timescale == 1) ? 0 : 1;
         Time.timeScale = timescale;
@@ -40,7 +40,6 @@ public class ButtonBehaviour : MonoBehaviour
 
     public void QuitGame()
     {
-        Debug.Log("Quit");
         Application.Quit();
     }
 }

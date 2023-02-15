@@ -6,7 +6,7 @@ public class BouncyShrooms : MonoBehaviour
 {
     public float bounceForce;
     public GameObject torchColour;
-    public GameObject torchPedalstal;
+    public GameObject torchPedestal;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +22,7 @@ public class BouncyShrooms : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (torchColour.GetComponent<SpriteRenderer>().color == torchPedalstal.GetComponent<SpriteRenderer>().color) {
+        if (torchColour.GetComponent<SpriteRenderer>().color == torchPedestal.GetComponent<SpriteRenderer>().color) {
             // Check if the player has collided with the mushroom from above
             // && other.contacts[0].normal.y > 0.5f
             if (other.gameObject.tag == "Player")
