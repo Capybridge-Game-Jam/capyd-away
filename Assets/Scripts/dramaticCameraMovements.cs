@@ -26,14 +26,14 @@ public class dramaticCameraMovements : MonoBehaviour
     IEnumerator AnimationCoroutine() {
         startPosition = target = transform.position;
 
-        SetDestination(new Vector3(1, -1.4f, -5), 6);
-        yield return new WaitForSeconds(5);
+        SetDestination(new Vector3(1, -1.4f, -5), 5);
+        yield return new WaitForSeconds(4);
         yield return StartCoroutine(fadeUnfadeSetNewImage(image2));
 
         SetDestination(new Vector3(-1, -1, -5), 0);
 
-        SetDestination(new Vector3(0.3f, -4f, -5), 6);
-        yield return new WaitForSeconds(5);
+        SetDestination(new Vector3(0.3f, -4f, -5), 5);
+        yield return new WaitForSeconds(4);
         yield return StartCoroutine(fadeUnfadeSetNewImage(image3));
 
         SetDestination(new Vector3(1, -3.5f, -5), 3);
@@ -47,8 +47,8 @@ public class dramaticCameraMovements : MonoBehaviour
         yield return new WaitForSeconds(2);
         yield return StartCoroutine(fadeUnfadeSetNewImage(image5));
 
-        SetDestination(new Vector3(1, -1, -5), 6);
-        yield return new WaitForSeconds(4);
+        SetDestination(new Vector3(1, -1, -5), 5);
+        yield return new WaitForSeconds(3);
         StartCoroutine(fadeUnfadeSetNewImage(image5));
         yield return new WaitForSeconds(1);
         // CHANGE SCENE HERE
