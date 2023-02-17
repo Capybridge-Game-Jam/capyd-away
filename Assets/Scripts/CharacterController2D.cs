@@ -14,6 +14,7 @@ public class CharacterController2D : MonoBehaviour
 	[SerializeField] private Collider2D m_CrouchDisableCollider;				// A collider that will be disabled when crouching
 
 	public Animator animator;
+	public Camera cam;
 
 	const float k_GroundedRadius = .8f; // Radius of the overlap circle to determine if grounded
 	private bool m_Grounded;            // Whether or not the player is grounded.
@@ -150,9 +151,10 @@ public class CharacterController2D : MonoBehaviour
 		m_FacingRight = !m_FacingRight;
 
 		// Multiply the player's x local scale by -1.
-		// Vector3 theScale = transform.localScale;
-		// theScale.x *= -1;
-		// transform.localScale = theScale;
-		this.GetComponent<SpriteRenderer>().flipX = !this.GetComponent<SpriteRenderer>().flipX;
+		Vector3 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
+
+		cam.transform.localScale = theScale; // flip the camera back to normal 
 	}
 }
