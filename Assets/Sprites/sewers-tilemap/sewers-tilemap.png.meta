@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -95,6 +97,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1060,54 +1074,53 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      sewers-tilemap_0: -639436640
+      sewers-tilemap_1: 1247753549
+      sewers-tilemap_10: 556132189
+      sewers-tilemap_11: -517666458
+      sewers-tilemap_12: -400350622
+      sewers-tilemap_13: 1593180872
+      sewers-tilemap_14: 899665087
       sewers-tilemap_15: 466372456
+      sewers-tilemap_16: 1994079138
+      sewers-tilemap_17: -1369454720
+      sewers-tilemap_18: -1162770601
+      sewers-tilemap_19: 355125457
+      sewers-tilemap_2: 1596190682
+      sewers-tilemap_20: 368731666
+      sewers-tilemap_21: -1757622052
+      sewers-tilemap_22: 1676237284
+      sewers-tilemap_23: -212514365
+      sewers-tilemap_24: -387535341
+      sewers-tilemap_25: -300221164
       sewers-tilemap_26: 1225927098
       sewers-tilemap_27: -1023217015
-      sewers-tilemap_24: -387535341
-      sewers-tilemap_8: -270840702
-      sewers-tilemap_34: -729153780
-      sewers-tilemap_0: -639436640
-      sewers-tilemap_16: 1994079138
-      sewers-tilemap_18: -1162770601
+      sewers-tilemap_28: -1221449041
       sewers-tilemap_29: 1510047300
+      sewers-tilemap_3: 802114647
+      sewers-tilemap_30: 1119981448
+      sewers-tilemap_31: 750801092
+      sewers-tilemap_32: 1972843288
+      sewers-tilemap_33: 546885857
+      sewers-tilemap_34: -729153780
+      sewers-tilemap_35: -1757060841
+      sewers-tilemap_36: 675862823
+      sewers-tilemap_37: -393939428
+      sewers-tilemap_38: 394024649
+      sewers-tilemap_39: -646794357
+      sewers-tilemap_4: -1318779909
+      sewers-tilemap_40: 1306780349
+      sewers-tilemap_41: -1438157319
+      sewers-tilemap_42: 1371701951
+      sewers-tilemap_43: -657625290
+      sewers-tilemap_44: 481469919
       sewers-tilemap_5: -1467464193
       sewers-tilemap_6: 209538345
-      sewers-tilemap_41: -1438157319
-      sewers-tilemap_1: 1247753549
-      sewers-tilemap_4: -1318779909
-      sewers-tilemap_9: -1210140221
-      sewers-tilemap_42: 1371701951
-      sewers-tilemap_13: 1593180872
-      sewers-tilemap_36: 675862823
-      sewers-tilemap_11: -517666458
-      sewers-tilemap_31: 750801092
-      sewers-tilemap_33: 546885857
-      sewers-tilemap_25: -300221164
-      sewers-tilemap_38: 394024649
-      sewers-tilemap_17: -1369454720
-      sewers-tilemap_40: 1306780349
-      sewers-tilemap_28: -1221449041
-      sewers-tilemap_35: -1757060841
-      sewers-tilemap_23: -212514365
-      sewers-tilemap_3: 802114647
-      sewers-tilemap_2: 1596190682
-      sewers-tilemap_22: 1676237284
-      sewers-tilemap_37: -393939428
-      sewers-tilemap_32: 1972843288
       sewers-tilemap_7: 1357072890
-      sewers-tilemap_44: 481469919
-      sewers-tilemap_20: 368731666
-      sewers-tilemap_10: 556132189
-      sewers-tilemap_19: 355125457
-      sewers-tilemap_12: -400350622
-      sewers-tilemap_14: 899665087
-      sewers-tilemap_21: -1757622052
-      sewers-tilemap_39: -646794357
-      sewers-tilemap_30: 1119981448
-      sewers-tilemap_43: -657625290
-  spritePackingTag: 
+      sewers-tilemap_8: -270840702
+      sewers-tilemap_9: -1210140221
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
